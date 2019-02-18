@@ -32,7 +32,8 @@ class Menu extends Component {
 
     render() { 
         return (
-            <div>
+            <div id="menu">
+                <h1>Menu</h1>
                 <div className="drink-banner"
                      name="drinks"
                      onClick={this.onClick}>Drinks

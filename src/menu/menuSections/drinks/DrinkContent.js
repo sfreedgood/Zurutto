@@ -21,7 +21,7 @@ const DrinkContent = () => {
     // })
 
     return(
-        <div>
+        <div className="menu-section-container">
             <div className="menu-head">Draft Beers</div>
             <div className="menu-item">
                 <span className="content">Sapporo</span>

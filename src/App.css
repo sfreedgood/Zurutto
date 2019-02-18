@@ -12,6 +12,22 @@
   color: white;
 }
 
+h1 {
+  font-family: "SFProText-Heavy";
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: -1.54;
+  color: #ffffff;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+/* #menu{
+  height: 100vh;
+} */
+
 
 /* I didn't get, why you are using logo styles and header styles in App componrnt. I missed last class. Maybe I do not understand everything right.  */
 

@@ -20,7 +20,7 @@ const DessertContent = () => {
     // })
 
     return(
-        <div>
+        <div className="menu-section-container">
             <div className="menu-item">
                 <span className="content">Almond Tofu Pudding</span>
                 <span className="price">$7</span>

@@ -20,7 +20,7 @@ const AppetizerContent = () => {
     // })
 
     return(
-        <div>
+        <div className="menu-section-container">
             <div className="menu-head">Gyoza (6pcs)</div>
             <div className="menu-item">
                 <span className="content">Regular</span>
