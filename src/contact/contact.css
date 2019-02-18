@@ -1,0 +1,50 @@
+.contact{
+    color: rgb(255, 255, 255);
+    background-image: url(https://i.imgur.com/SHFLjyX.png);
+    /* width:375pt;
+    height: 670pt; */
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+.street{
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: 'San Francisco';
+    margin-left: 21pt;
+    margin-right: 17pt;
+
+}
+.located {
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+    font-family: 'San Francisco';
+    margin-left: 21pt;
+    margin-right: 17pt;
+    margin-top: 77pt;
+}
+.hours {
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: 'San Francisco';
+    margin-top: 9pt;
+    margin-left: 21pt;
+    margin-right: 17pt;
+}
+.phone {
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: 'San Francisco';
+    margin-left: 21pt;
+    margin-right: 17pt;
+
+}
+.googleMap {
+margin:0;
+width: 375pt;
+height: 335pt;
+}
