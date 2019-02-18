@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import Drinks from "./MenuSections/Drinks"
-import Appetizers from "./MenuSections/Appetizers"
-import Mains from "./MenuSections/Mains"
-import Desserts from "./MenuSections/Desserts"
+import Drinks from "./menuSections/drinks/Drinks"
+import Appetizers from "./menuSections/appetizers/Appetizers"
+import Mains from "./menuSections/mains/Mains"
+import Desserts from "./menuSections/desserts/Desserts"
 
 //this is just a conceptual outline, may need to adjust going forward
 

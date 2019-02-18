@@ -1,6 +1,14 @@
-.section-head {
+.menu-section-container {
     width: 226;
     height: 894;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-head {
+    /* width: 226;
+    height: 894; */
     font-family: "SFProText";
     font-size: 15;
     font-weight: 600;
@@ -10,8 +18,11 @@
 }
 
 .setion-item {
-    width: 226;
-    height: 894;
+    display: flex;
+    justify-content: space-between;
+    justify-items: self-end;
+    /* width: 226;
+    height: 894; */
     font-family: "SFProText";
     font-size: 15;
     font-weight: 300;
@@ -20,3 +31,10 @@
     color: black;
 }
 
+.item-description {
+    flex-flow: wrap;
+}
+
+.price {
+    float: right;
+}
