@@ -20,20 +20,20 @@ const Appetizers = () => {
 
     return(
         <div>
-            Gyoza (6pcs)
-            Regular
-            Cheese
-            Radish
-            Edamame
-            Edamame (w/ garlic butter)
-            Kimchi
-            Sesame Cucumber
-            Karaage (fried chicken) 
-            Roasted Pork Buns (2pcs)
-            Takoyaki (8pcs)
-            French Fries, Okonomiyaki Style
-            Zarutto Salad
-            Tofu Salad
+            <div className="section-head">Gyoza (6pcs)</div>
+            <div className="section-item">Regular</div>
+            <div className="section-item">Cheese</div>
+            <div className="section-item">Radish</div>
+            <div className="section-head">Edamame</div>
+            <div className="section-head">Edamame <span className="section-item">(w/ garlic butter)</span></div>
+            <div className="section-head">Kimchi</div>
+            <div className="section-head">Sesame Cucumber</div>
+            <div className="section-head">Karaage <span className="section-item">(fried chicken)</span></div>
+            <div className="section-head">Roasted Pork Buns <span className="section-item">(2pcs)</span></div>
+            <div className="section-head">Takoyaki <span className="section-item">(8pcs)</span></div>
+            <div className="section-head">French Fries, Okonomiyaki Style</div>
+            <div className="section-head">Zarutto Salad</div>
+            <div className="section-head">Tofu Salad</div>
             {/* {displayAppetizers} */}
             {/* Alternatively hardcode all items here */}
         </div>
