@@ -1,0 +1,14 @@
+.about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/zurutto_abot.jpg");
+  height: 667px;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.about-content {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 154px 113px 141px 27px;
+  text-align: left;
+}
