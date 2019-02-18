@@ -1,0 +1,11 @@
+.img-scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.img-scroll img {
+    display: inline-block;
+    height:335px;
+    width: 335px;
+    margin: 0 5px 0 5px;
+}
