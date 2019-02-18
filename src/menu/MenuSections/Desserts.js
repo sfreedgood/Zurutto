@@ -20,7 +20,9 @@ const Desserts = () => {
 
     return(
         <div>
-            Desserts test
+            <div className="section-head">Almond Tofu Pudding</div>
+            <div className="section-head">Mochi Green Tea or Vanilla</div>
+            <div className="section-head">Yuzu Sherbert</div>
             {/* {displayDesserts} */}
             {/* Alternatively hardcode all items here */}
         </div>
