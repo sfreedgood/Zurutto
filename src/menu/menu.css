@@ -41,3 +41,47 @@
 .price {
     justify-content: right;
 }
+
+.main-banner {
+    background-image: url("../assets/main-banner.jpg");
+    background-size: 100% 100%;
+    background-color: black;
+    opacity: .7;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+    height: 10vh;
+}
+
+.appetizer-banner {
+    background-image: url("../assets/appetizer-banner.jpg");
+    background-size: 100% 100%;
+    background-color: black;
+    opacity: .7;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+    height: 10vh;
+}
+
+.dessert-banner {
+    background-image: url("../assets/dessert-banner.jpg");
+    background-color: black;
+    opacity: .7;
+    background-size: 100% 100%;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+    height: 10vh;
+}
+
+.drink-banner {
+    background-image: url("../assets/drink-banner.jpg");
+    background-size: 100% 100%;
+    background-color: black;
+    opacity: .7;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+    height: 10vh;
+}
