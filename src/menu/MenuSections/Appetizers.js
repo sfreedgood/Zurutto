@@ -20,7 +20,20 @@ const Appetizers = () => {
 
     return(
         <div>
-            Appetizers test
+            Gyoza (6pcs)
+            Regular
+            Cheese
+            Radish
+            Edamame
+            Edamame (w/ garlic butter)
+            Kimchi
+            Sesame Cucumber
+            Karaage (fried chicken) 
+            Roasted Pork Buns (2pcs)
+            Takoyaki (8pcs)
+            French Fries, Okonomiyaki Style
+            Zarutto Salad
+            Tofu Salad
             {/* {displayAppetizers} */}
             {/* Alternatively hardcode all items here */}
         </div>

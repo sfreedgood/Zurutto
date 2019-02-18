@@ -1,3 +1,4 @@
+
 .App {
   display: flex;
   flex-direction: column;
@@ -10,6 +11,7 @@
   background-image: url("./assets/background.png");
   color: white;
 }
+
 
 /* I didn't get, why you are using logo styles and header styles in App componrnt. I missed last class. Maybe I do not understand everything right.  */
 
