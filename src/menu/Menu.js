@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import Drinks from "./MenuSections/Drinks"
-import Appetizers from "./MenuSections/Appetizers"
-import Mains from "./MenuSections/Mains"
-import Desserts from "./MenuSections/Desserts"
+import Drinks from "./menuSections/drinks/Drinks"
+import Appetizers from "./menuSections/appetizers/Appetizers"
+import Mains from "./menuSections/mains/Mains"
+import Desserts from "./menuSections/desserts/Desserts"
 
 //this is just a conceptual outline, may need to adjust going forward
 
@@ -32,7 +32,8 @@ class Menu extends Component {
 
     render() { 
         return (
-            <div>
+            <div id="menu">
+                <h1>Menu</h1>
                 <div className="drink-banner"
                      name="drinks"
                      onClick={this.onClick}>Drinks
