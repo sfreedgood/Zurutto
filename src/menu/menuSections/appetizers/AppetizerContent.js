@@ -21,59 +21,59 @@ const AppetizerContent = () => {
 
     return(
         <div>
-            <div className="section-head">Gyoza (6pcs)</div>
-            <div className="section-item">
+            <div className="menu-head">Gyoza (6pcs)</div>
+            <div className="menu-item">
                 <span className="content">Regular</span>
-                <span className="price section-head">$6</span>
+                <span className="price menu-head">$6</span>
             </div>
-            <div className="section-item">
+            <div className="menu-item">
                 <span className="content">Cheese</span>
-                <span className="price section-head">$7</span>
+                <span className="price menu-head">$7</span>
             </div>
-            <div className="section-item">
+            <div className="menu-item">
                 <span className="content">Radish</span>
-                <span className="price section-head">$7</span>
+                <span className="price menu-head">$7</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">Edamame</span>
                 <span className="price">$4</span>
             </div>
-            <div className="section-head">
-                <span className="content">Edamame <span className="section-item">(w/ garlic butter)</span></span>
+            <div className="menu-head">
+                <span className="content">Edamame <span className="menu-item">(w/ garlic butter)</span></span>
                 <span className="price">$5</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">Kimchi</span>
                 <span className="price">$4</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">Sesame Cucumber</span>
                 <span className="price">$6</span>
             </div>
-            <div className="section-head">
-                <span className="content">Karaage <span className="section-item">(fried chicken)</span></span>
+            <div className="menu-head">
+                <span className="content">Karaage <span className="menu-item">(fried chicken)</span></span>
                 <span className="price">
-                    <span className="section-item">(3pcs)</span>$4
-                    <span className="section-item">(6pcs)</span>$7
+                    <span className="menu-item">(3pcs)</span>$4
+                    <span className="menu-item">(6pcs)</span>$7
                 </span>
             </div>
-            <div className="section-head">
-                <span className="content">Roasted Pork Buns <span className="section-item">(2pcs)</span></span>
+            <div className="menu-head">
+                <span className="content">Roasted Pork Buns <span className="menu-item">(2pcs)</span></span>
                 <span className="price">$7</span>
             </div>
-            <div className="section-head">
-                <span className="content">Takoyaki <span className="section-item">(8pcs)</span></span>
+            <div className="menu-head">
+                <span className="content">Takoyaki <span className="menu-item">(8pcs)</span></span>
                 <span className="price">$7</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">French Fries, Okonomiyaki Style</span>
                 <span className="price">$6</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">Zarutto Salad</span>
                 <span className="price">$8</span>
             </div>
-            <div className="section-head">
+            <div className="menu-head">
                 <span className="content">Tofu Salad</span>
                 <span className="price">$8</span>
             </div>

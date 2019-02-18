@@ -21,17 +21,17 @@ const DessertContent = () => {
 
     return(
         <div>
-            <div className="section-item">
+            <div className="menu-item">
                 <span className="content">Almond Tofu Pudding</span>
                 <span className="price">$7</span>
             </div>
 
-            <div className="section-item">
+            <div className="menu-item">
                 <span className="content">Mochi Green Tea or Vanilla</span>
                 <span className="price">$5</span>
             </div>
 
-            <div className="section-item">
+            <div className="menu-item">
                 <span className="content">Yuzu Sherbert</span>
                 <span className="price">$5</span>
             </div>

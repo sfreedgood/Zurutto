@@ -6,21 +6,24 @@
     align-items: flex-start;
 }
 
-.section-head {
+.menu-head {
     /* width: 226;
     height: 894; */
+    display: flex;
+    justify-content: baseline;
     font-family: "SFProText";
     font-size: 15;
     font-weight: 600;
     font-style: normal;
     letter-spacing: 0;
-    color: black;
+    color: white;
 }
 
-.setion-item {
+.menu-item {
     display: flex;
     justify-content: space-between;
     justify-items: self-end;
+    align-self: flex-start;
     /* width: 226;
     height: 894; */
     font-family: "SFProText";
@@ -28,7 +31,7 @@
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0;
-    color: black;
+    color: white;
 }
 
 .item-description {
@@ -36,5 +39,5 @@
 }
 
 .price {
-    float: right;
+    justify-content: right;
 }
