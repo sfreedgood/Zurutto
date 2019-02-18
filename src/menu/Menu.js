@@ -18,20 +18,41 @@ class Menu extends Component {
     }
 
     onClick = (e) => {
-        console.log(e.currentTarget.name) //check to sync component to state
-        const activeMenu = e.currentTarget.name
-        this.setState({
-            [activeMenu]: true
-        })
+        const activeMenu = e.currentTarget.innerHTML.toLowerCase()
+        if (this.state[activeMenu]) {
+            this.setState({
+                [activeMenu]: false
+            })
+        } else {
+            this.setState({
+                [activeMenu]: true
+            })
+        }
     }
 
     render() { 
         return (
             <div>
-                <Drinks name="drinks" onClick={this.onClick}/>
-                <Appetizers name="appetizers" onClick={this.onClick}/>
-                <Mains name="mains" onClick={this.onClick}/>
-                <Desserts name="desserts" onClick={this.onClick}/>
+                <div className="drink-banner"
+                     name="drinks"
+                     onClick={this.onClick}>Drinks
+                </div>
+                {this.state.drinks && <Drinks/>}
+                <div className="appetizer-banner"
+                     name="appetizers"
+                     onClick={this.onClick}>Appetizers
+                </div>
+                {this.state.appetizers && <Appetizers/>}
+                <div className="main-banner"
+                     name="mains"
+                     onClick={this.onClick}>Mains
+                </div>
+                {this.state.mains && <Mains/>}
+                <div className="dessert-banner"
+                     name="desserts"
+                     onClick={this.onClick}>Desserts
+                </div>
+                {this.state.desserts && <Desserts/>}      
             </div>
         );
     }

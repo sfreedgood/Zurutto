@@ -1,0 +1,21 @@
+.setion-item {
+    width: 226;
+    height: 894;
+    font-family: "SFProText";
+    font-size: 15;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0;
+    color: black;
+}
+
+.section-head {
+    width: 226;
+    height: 894;
+    font-family: "SFProText";
+    font-size: 15;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0;
+    color: black;
+}
