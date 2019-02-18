@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 1);
+  height: 83px;
+  position: fixed;
+  width: 100%;
+}
+img {
+  width: 148.5px;
+  height: 33px;
+  margin-top: 6px;
+}
+
+a {
+  width: 67px;
+  height: 21px;
+  font-size: 18px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  margin: 14px 21px 0;
+}
+
+a:hover {
+  color: #d15419;
+}
