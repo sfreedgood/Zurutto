@@ -1,23 +1,18 @@
 .menu-section-container {
-    width: 100vh;
-    /* height: 100vh; */
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-content: space-around;
-    align-items: flex-start;
+    width: 100vw;
     margin-bottom: 2%;
 }
-
+.content{
+  flex: 4;
+  margin: 0;
+}
 .menu-head {
+    text-align: left;
     /* width: 226;
     height: 894; */
-    display: flex;
-    justify-content: baseline;
     font-family: "SFProText";
-    font-size: 15;
+    font-size: 1.5rem;
     font-weight: 600;
-    font-style: normal;
     letter-spacing: 0;
     color: white;
     padding: 2% 10% 2% 2%;
@@ -25,26 +20,35 @@
 
 .menu-item {
     display: flex;
-    justify-content: space-between;
-    justify-items: self-end;
-    align-self: flex-start;
+    text-align: left;
     font-family: "SFProText";
-    font-size: 15;
+    /* font-size: 15;
     font-weight: 300;
-    font-style: normal;
+    font-style: normal; */
     letter-spacing: 0;
     color: white;
     margin: 2%;
 }
 
+.item-detail {
+    display: inline;
+    text-align: left;
+    font-family: "SFProText";
+    color: white;
+}
+
 .item-description {
     text-align: left;
+    display: flex;
     flex-flow: wrap;
 }
 
 .price {
-    justify-content: right;
+    font-family: "SFProText";
+    font-size: 1.5rem;
     text-align: right;
+    /* flex: 2; */
+    font-weight: 600;
 }
 
 .main-banner {
@@ -54,7 +58,7 @@
     opacity: .7;
     text-align: left;
     font-size: 2rem;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
 
@@ -65,7 +69,7 @@
     opacity: .7;
     text-align: left;
     font-size: 2rem;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
 
@@ -76,7 +80,7 @@
     background-size: 100% 100%;
     text-align: left;
     font-size: 2rem;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
 
@@ -87,6 +91,6 @@
     opacity: .7;
     text-align: left;
     font-size: 2rem;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
