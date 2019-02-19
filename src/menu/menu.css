@@ -38,6 +38,18 @@
     margin: 2%;
 }
 
+/* Menu Categories (Dropdowns)
+----------------------------------*/
+.menu-cat{
+  padding-left: 20px;
+  font-weight: 600;
+  text-shadow: 2px 3px 2px #00000087;
+}
+/* .menu-cat span{
+  font-weight: 600;
+  text-shadow: 2px 3px 2px #00000087;
+} Adding Spans disabled the onclick event*/
+
 .item-description {
     text-align: left;
     flex-flow: wrap;
