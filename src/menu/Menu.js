@@ -30,33 +30,37 @@ class Menu extends Component {
         }
     }
 
-    render() { 
+    render() {
         return (
             <div id="menu">
                 <h1>Menu</h1>
-                <div className="drink-banner"
+                <div className="drink-banner menu-cat d-flex align-items-end"
                      name="drinks"
-                     onClick={this.onClick}>Drinks
+                     onClick={this.onClick}>
+                     Drinks
                 </div>
                 {this.state.drinks && <Drinks/>}
-                <div className="appetizer-banner"
+                <div className="appetizer-banner menu-cat d-flex align-items-end"
                      name="appetizers"
-                     onClick={this.onClick}>Appetizers
+                     onClick={this.onClick}>
+                     Appetizers
                 </div>
                 {this.state.appetizers && <Appetizers/>}
-                <div className="main-banner"
+                <div className="main-banner menu-cat d-flex align-items-end"
                      name="mains"
-                     onClick={this.onClick}>Mains
+                     onClick={this.onClick}>
+                     Mains
                 </div>
                 {this.state.mains && <Mains/>}
-                <div className="dessert-banner"
+                <div className="dessert-banner menu-cat d-flex align-items-end"
                      name="desserts"
-                     onClick={this.onClick}>Desserts
+                     onClick={this.onClick}>
+                     Desserts
                 </div>
-                {this.state.desserts && <Desserts/>}      
+                {this.state.desserts && <Desserts/>}
             </div>
         );
     }
 }
- 
+
 export default Menu;
