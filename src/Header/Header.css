@@ -15,14 +15,16 @@ img {
   margin-top: 6px;
 }
 
-a {
+.header a {
   width: 67px;
   height: 21px;
   font-size: 18px;
   outline: none;
   text-decoration: none;
   color: white;
-  margin: 0px 21px 0;
+
+  margin: 0px 18px 0;
+
   text-align: center;
 }
 

@@ -143,7 +143,9 @@ const DrinkContent = () => {
 
     return(
         <div className="menu-section-container">
-            <div className="menu-head">Draft Beers</div>
+            <div className="menu-head">
+              <h4>Draft Beers</h4>
+            </div>
             <div className="menu-item">
                 <span className="content">Sapporo</span>
                 <span className="price">$6</span>

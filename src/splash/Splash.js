@@ -8,9 +8,9 @@ const Splash = () => {
 
 
     return(
-        <div className="splash">
-            <img src={SplashImg} className='splash-img' />
-            <a href="#about-page"><img src={arrow} className='scroll-arrow' /></a>
+        <div className="splash d-flex flex-column justify-content-center">
+            <img src={SplashImg} className="align-self-center splash-img" />
+            <a className="" href="#about-page"><img src={arrow} className='scroll-arrow' /></a>
         </div>
     )
 }

@@ -1,3 +1,7 @@
+#menu{
+  margin-bottom:40px;
+}
+
 .menu-section-container {
     /* width: 100vh; This should be "vw for width of viewport*/
     width: 100%;
