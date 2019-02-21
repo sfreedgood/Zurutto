@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "google-maps-react": "^2.0.2",
     "iframe": "^1.0.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-map-gl": "^4.0.10",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "reactstrap": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
