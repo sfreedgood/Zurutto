@@ -105,6 +105,7 @@ font-weight: 600;
     font-size: 2rem;
     width: 100vw;
     height: 10vh;
+    max-width: 400px;
 }
 
 .appetizer-banner {
@@ -116,6 +117,7 @@ font-weight: 600;
     font-size: 2rem;
     width: 100vw;
     height: 10vh;
+    max-width: 400px;
 }
 
 .dessert-banner {
@@ -126,6 +128,7 @@ font-weight: 600;
     text-align: left;
     font-size: 2rem;
     width: 100vw;
+    max-width: 400px;
     height: 10vh;
 }
 
@@ -137,6 +140,7 @@ font-weight: 600;
     text-align: left;
     font-size: 2rem;
     width: 100vw;
+    max-width: 400px;
     height: 10vh;
 }
 

@@ -27,8 +27,9 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
+        <Header className="header" />
         <div className="App">
+
           <Splash />
           <About />
           <Menu />
