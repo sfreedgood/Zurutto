@@ -6,39 +6,58 @@
     /* width: 100vh; This should be "vw for width of viewport*/
     width: 100%;
     /* height: 100vh; */
-    display: flex;
-    flex-flow: column;
     justify-content: space-between;
     align-content: space-around;
     align-items: flex-start;
     margin-bottom: 2%;
+    background-color: #ffffff;
 }
 .content{
-  flex: 4;
-  margin: 0;
+
 }
 .menu-head {
     text-align: left;
-    /* width: 226;
-    height: 894; */
     font-family: "SFProText";
-    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0;
-    color: white;
-    padding: 2% 10% 2% 2%;
+    color: #212121;
+    padding: 10px 10px;
+}
+
+.menu-head span{
+  color: #212121;
+  font-weight: 600;
 }
 
 .menu-item {
     display: flex;
     text-align: left;
-    font-family: "SFProText";
     /* font-size: 15;
     font-weight: 300;
     font-style: normal; */
     letter-spacing: 0;
     color: white;
-    margin: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menu-item span{
+  color: #212121;
+  font-size: .9em;
+}
+
+.menu-item .content{
+font-weight: 600;
+}
+
+.menu-item .price{
+
+}
+
+.menu-item .item-detail{
+  font-weight: 300 !important;
+  color: #585858;
 }
 
 /* Menu Categories (Dropdowns)
@@ -60,8 +79,7 @@
 }
 
 .price {
-    font-family: "SFProText";
-    font-size: 1.5rem;
+
     text-align: right;
     /* flex: 2; */
     font-weight: 600;
@@ -109,4 +127,33 @@
     font-size: 2rem;
     width: 100vw;
     height: 10vh;
+}
+
+.dots {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.dots-left::after {
+    color: gray;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+    font-weight: normal;
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap; /* only needed when content has spaces */
+    margin-left: 5px; /* space left of dots */
+}
+
+.dot-leader__left {
+    position: relative;
+    display: inline-block;
+}
+
+.dots-right {
+    background: white; /* cover the dots */
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding-left: 5px; /* space right of dots */
+    padding-right: 10px;
 }

@@ -8,6 +8,21 @@ import Contact from "./contact/contact";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Container,
+    Row,
+    Col,
+    Jumbotron,
+    Button
+} from 'reactstrap';
+
 class App extends Component {
   render() {
     return (

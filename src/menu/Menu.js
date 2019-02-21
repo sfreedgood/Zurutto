@@ -4,6 +4,8 @@ import Appetizers from "./menuSections/appetizers/Appetizers"
 import Mains from "./menuSections/mains/Mains"
 import Desserts from "./menuSections/desserts/Desserts"
 
+import { Container, Row, Col } from 'reactstrap';
+
 //this is just a conceptual outline, may need to adjust going forward
 
 class Menu extends Component {
@@ -34,12 +36,7 @@ class Menu extends Component {
         return (
             <div id="menu">
                 <h1>Menu</h1>
-                <div className="drink-banner menu-cat d-flex align-items-end"
-                     name="drinks"
-                     onClick={this.onClick}>
-                     Drinks
-                </div>
-                {this.state.drinks && <Drinks/>}
+
                 <div className="appetizer-banner menu-cat d-flex align-items-end"
                      name="appetizers"
                      onClick={this.onClick}>
@@ -58,6 +55,12 @@ class Menu extends Component {
                      Desserts
                 </div>
                 {this.state.desserts && <Desserts/>}
+                <div className="drink-banner menu-cat d-flex align-items-end"
+                     name="drinks"
+                     onClick={this.onClick}>
+                     Drinks
+                </div>
+                {this.state.drinks && <Drinks/>}
             </div>
         );
     }
