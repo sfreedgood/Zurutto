@@ -20,10 +20,15 @@
   width: 49px;
   display: block;
   margin:0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 .splash{
   height: 100vh;
   background-color: #000000;
   padding-top: 80px;
+  position: relative;
 }

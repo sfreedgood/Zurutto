@@ -11,6 +11,11 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
+
+.address{
+  margin-bottom: 60px;
+  margin-top:40px;
+}
 .street{
     font-size: 14pt;
     color: rgb(255, 255, 255);
@@ -24,7 +29,7 @@ a {
     color: rgb(255, 255, 255);
     /* font-family: 'San Francisco'; */
     margin: 0 auto;
-    margin-top: 77pt;
+
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -48,14 +53,29 @@ a {
   margin: 0 0;
 }
 .googleMap {
-margin:0;
+/* margin:0;
 width: 375pt;
-height: 335pt;
+height: 335pt; */
+
 }
+
+.googleMap iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .map{
   margin:40px auto;
+  /*
   width: 100%;
-  max-width: 375px;
+  max-width: 375px; */
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
 }
 
 .hoursPhone{
